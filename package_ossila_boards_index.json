@@ -14,8 +14,8 @@
           "category": "Contributed",
           "url": "https://github.com/OKSM/os_boards/raw/main/1.0.0.zip",
           "archiveFileName": "1.0.0.zip",
-          "checksum": "SHA-256:65f5fb08d1845ee64fb4d002a9efa6ba3e5c286302db78b9edfb02a1c115a767",
-          "size": "11126872",
+          "checksum": "SHA-256:8f6918c1ab143a44132b1de0b8788d6aca6cd6b86b9b55c3b8a4714e3b2ae849",
+          "size": "8160440",
           "boards": [
             {
               "name": "Ossila Central M4"
