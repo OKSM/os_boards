@@ -4,12 +4,11 @@
     {
       "name": "ossila",
       "maintainer": "OKSM",
-      "websiteURL": "https://ossila.com",
-      "email" : "te@rters.com",
+      "websiteURL": "http://ossila.com",
       "platforms":
       [
         {
-          "name": "Ossila Boards",
+          "name": "Ossila_Boards",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
