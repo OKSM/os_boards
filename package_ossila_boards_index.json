@@ -382,7 +382,7 @@
           "size": "16496493",
           "boards": [
             {
-              "name": "Arduino Due"
+              "name": "Sam3X Boards"
             }
           ],
           "toolsDependencies": [
