@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "ossila", 
+      "name": "Ossila", 
       "maintainer": "OKSM",
       "websiteURL": "http://ossila.com",
             "tools": [
@@ -330,17 +330,20 @@
             ],
       "platforms": [
         {
-          "name": "Ossila_Boards",
+          "name": "Ossila SAMD Boards",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/OKSM/os_boards/raw/main/1.0.0.zip",
-          "archiveFileName": "1.0.0.zip",
-          "checksum": "SHA-256:8f6918c1ab143a44132b1de0b8788d6aca6cd6b86b9b55c3b8a4714e3b2ae849",
-          "size": "8160440",
+          "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_boards_1.0.0.zip",
+          "archiveFileName": "Ossila_boards_1.0.0.zip",
+          "checksum": "SHA-256:75242c732a275a3df5a8542f9904b00e527bb13532986a8ee5c59f62bac0990f",
+          "size": "4601023",
           "boards": [
             {
-              "name": "Ossila Central M4"
+              "name": "Ossila A2002 M4"
+            },
+            {
+              "name": "Ossila A2003 M4"
             }
           ],
           "toolsDependencies": [
@@ -372,7 +375,7 @@
           ]
         },
         {
-          "name": "Ossila SAM Boards (32-bits ARM Cortex-M3)",
+          "name": "Ossila SAM3X Boards M3",
           "architecture": "sam",
           "version": "1.6.12",
           "category": "Arduino",
@@ -382,7 +385,10 @@
           "size": "16496493",
           "boards": [
             {
-              "name": "Sam3X Boards"
+              "name": "Sam3X Full"
+            },
+            {
+              "name": "Sam3X Half"
             }
           ],
           "toolsDependencies": [
