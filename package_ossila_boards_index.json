@@ -1,8 +1,6 @@
 {
   "packages": [
     {
-      "name": "Ossila", 
-      "maintainer": "OKSM",
       "websiteURL": "http://ossila.com",
             "tools": [
               {
@@ -328,6 +326,8 @@
                 "version": "1.0.0"
               }
             ],
+      "name": "Ossila",
+      "maintainer": "OKSM",
       "platforms": [
         {
           "name": "Ossila SAMD Boards",
