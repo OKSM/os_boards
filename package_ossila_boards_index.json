@@ -378,11 +378,11 @@
           "name": "Ossila SAM3X Boards M3",
           "architecture": "sam",
           "version": "1.6.12",
-          "category": "Arduino",
-          "url": "http://downloads.arduino.cc/cores/sam-1.6.12.tar.bz2",
-          "archiveFileName": "sam-1.6.12.tar.bz2",
-          "checksum": "SHA-256:1d56d0ceea12a920c4a5c12fff793499354ffba7e93d330786bd2d6f3a191c47",
-          "size": "16496493",
+          "category": "Contributed",
+          "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_SAM3X_Boards_1.0.0.zip",
+          "archiveFileName": "Ossila_SAM3X_Boards_1.0.0.zip",
+          "checksum": "SHA-256:1b927ffff2921b6aa680c31316d27f2463414651980ef95ae686307b056ffc46",
+          "size": "43470206",
           "boards": [
             {
               "name": "Sam3X Full"
