@@ -377,7 +377,7 @@
         {
           "name": "Ossila SAM3X Boards M3",
           "architecture": "sam",
-          "version": "1.6.12",
+          "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_SAM3X_Boards_1.0.0.zip",
           "archiveFileName": "Ossila_SAM3X_Boards_1.0.0.zip",
