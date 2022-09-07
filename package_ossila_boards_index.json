@@ -391,7 +391,7 @@
           "category": "Contributed",
           "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_boards_1.0.0.zip",
           "archiveFileName": "Ossila_boards_1.0.0.zip",
-          "checksum": "SHA-256:496f4fd4665a2b16ff25935183bcbe3aeae85b6be7084410662a57480ba0d512",
+          "checksum": "SHA-256:800adec46b54c59e0d6013c5640eea821b45d08bf116e9d5722e2e8eb46e7952",
           "size": "4601023",
           "boards": [
             {
