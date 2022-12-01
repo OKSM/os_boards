@@ -1,0 +1,880 @@
+{
+    "packages": [
+        {
+            "websiteURL": "http://ossila.com",
+            "tools": [
+                {
+                    "name": "bossac",
+                    "version": "1.8.0-48-gb176eee",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+                            "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+                            "checksum": "SHA-256:4523a6897f3dfd673fe821c5cfbac8d6a12782e7a36b312b9ee7d41deec2a10a",
+                            "size": "91219"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+                            "archiveFileName": "bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+                            "checksum": "SHA-256:581ecc16021de36638ae14e9e064ffb4a1d532a11502f4252da8bcdf5ce1d649",
+                            "size": "39150"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:1347eec67f5b90b785abdf6c8a8aa59129d0c016de7ff9b5ac1690378eacca3c",
+                            "size": "37798"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:4c7492f876b8269aa9d8bcaad3aeda31acf1a0292383093b6d9f5f1d23fdafc3",
+                            "size": "37374"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+                            "archiveFileName": "bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+                            "checksum": "SHA-256:2001e4a592f3aefd22f213b1ddd6f5d8d5e74bd04080cf1b97c24cbaa81b10ed",
+                            "size": "34825"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+                            "archiveFileName": "bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+                            "checksum": "SHA-256:c167fa0ea223966f4d21f5592da3888bcbfbae385be6c5c4e41f8abff35f5cb1",
+                            "size": "442853"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS",
+                    "version": "5.4.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        },
+                        {
+                            "host": "all",
+                            "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+                            "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+                            "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+                            "size": "153772853"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS",
+                    "version": "5.7.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        },
+                        {
+                            "host": "all",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/ARM.CMSIS.5.7.0.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS-Atmel",
+                    "version": "1.2.2",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        },
+                        {
+                            "host": "all",
+                            "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "archiveFileName": "Ossila_CMSIS-Atmel_1.2.2.zip",
+                            "checksum": "SHA-256:9509e60cc2c39353e61860646f3a8b74e6a8d1ef822b4354c5a7ec0b117cd1f3",
+                            "size": "5775669"
+                        }
+                    ]
+                },
+                {
+                    "name": "arm-none-eabi-gcc",
+                    "version": "9-2019q4",
+                    "systems": [
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                            "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+                            "size": "96613739"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+                            "checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
+                            "size": "128670769"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+                            "checksum": "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+                            "size": "153520070"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+                            "checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
+                            "size": "116770520"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+                            "checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+                            "size": "116802378"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+                            "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+                            "size": "97427309"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0-c-0196c06",
+                    "name": "pqt-openocd",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "checksum": "SHA-256:8da4fd922fd7392e87c0057b193e67962606cd13450af935c9846992f2bce916",
+                            "size": "5607131"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.openocd-e3428fadb.220714.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.openocd-e3428fadb.220714.tar.gz",
+                            "checksum": "SHA-256:ce7650961c8200fe2cc2d4a88efc952fe1bb7b4175f2cf650a9a7d992ae08298",
+                            "size": "5344149"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "checksum": "SHA-256:9391ae74c6474f685f45ccefb82e18f382f1a59f3e13e2b22fe00967264d2482",
+                            "size": "5168334"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.openocd-e3428fadb.220714.zip",
+                            "archiveFileName": "i686-w64-mingw32.openocd-e3428fadb.220714.zip",
+                            "checksum": "SHA-256:f4b7803527a0a587fe95e52bcf056fcbe58d64b78705edd38810655d3abee1fe",
+                            "size": "2156831"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.openocd-e3428fadb.220714.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.openocd-e3428fadb.220714.tar.gz",
+                            "checksum": "SHA-256:4e6a8da43758941478e6740e023ea5be051f09bf92e49d65c2b54a1ca4a2660c",
+                            "size": "2002508"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.openocd-e3428fadb.220714.tar.gz",
+                            "checksum": "SHA-256:2518c6451c0e4c148c8c6cb9330e216075177003b064c509b168f42a44a6eb5a",
+                            "size": "5540574"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.openocd-e3428fadb.220714.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.openocd-e3428fadb.220714.zip",
+                            "checksum": "SHA-256:c2da993d74152ec8ca80b350ede77ee94942518081a48dafd7a3b49631778e75",
+                            "size": "2156831"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.0.1-base-3a57aed",
+                    "name": "pqt-python3",
+                    "systems": [
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-3.7.2.post1-embed-win32v2a.zip",
+                            "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+                            "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+                            "size": "6428926"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-3.7.2.post1-embed-win32v2a.zip",
+                            "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+                            "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2",
+                            "size": "6428926"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-macosx-portable.tar.gz",
+                            "archiveFileName": "python3-macosx-portable.tar.gz",
+                            "checksum": "SHA-256:01a5bf1fa264c6f04cfaadf4c6e9f6caaacb6833ef40104dfbe953fcdb9bca1c",
+                            "size": "25494144"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.0.1-base/python3-via-env.tar.gz",
+                            "archiveFileName": "python3-via-env.tar.gz",
+                            "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3",
+                            "size": "292"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0-c-0196c06",
+                    "name": "pqt-gcc",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "checksum": "SHA-256:0bc906c2eb4b3999285ea8a71ec0c95a20a21f2ff46b1bdd264f2fd3c30fe580",
+                            "size": "77889379"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.arm-none-eabi-0196c06.220714.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.arm-none-eabi-0196c06.220714.tar.gz",
+                            "checksum": "SHA-256:2bf9f691d1fa97cea3b835a364fc24d06102181725001a00fe3e77526f90e2bd",
+                            "size": "73342377"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "checksum": "SHA-256:e0fe347f2602247ffbc16bb7b74653fdb78c4f75b90037f2e82fc5498b5d1cb9",
+                            "size": "79511866"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                            "archiveFileName": "i686-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                            "checksum": "SHA-256:d1ee0f00c97dc50dc06487d6fb6b5dd94bbb3cf1579c975bcd23d7a7922e53b7",
+                            "size": "82626868"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.arm-none-eabi-0196c06.220714.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.arm-none-eabi-0196c06.220714.tar.gz",
+                            "checksum": "SHA-256:1b030451a5a6ddf42ac796c46b2f077f90f6d56586f4537a3486ce47670996cd",
+                            "size": "82119254"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.arm-none-eabi-0196c06.220714.tar.gz",
+                            "checksum": "SHA-256:73d032ba42d33f6e9c1d5de79b73bf5e9740b8e6b7fee37de3db03814c553694",
+                            "size": "80363125"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.arm-none-eabi-0196c06.220714.zip",
+                            "checksum": "SHA-256:3f67e15adbe49ebaee72734e9d469bd6b34fd1be30ccdb6e55a1e05a0be4e1db",
+                            "size": "86064664"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0-c-0196c06",
+                    "name": "pqt-elf2uf2",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:14d7c1be08151bcddcc19fdb5741bf52b435f08f52daff2d498a07c5ebfb5bfb",
+                            "size": "82682"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.elf2uf2-2e6142b.220714.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.elf2uf2-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:31b790b5a19bbb5950212098aa42be43702fb4db50aa541c9f40b2320e2280be",
+                            "size": "55991"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:a3dd93861857fd81f8c9ed01509a0af012f446f23f405bc696f6a4d2f344262c",
+                            "size": "91386"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                            "archiveFileName": "i686-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                            "checksum": "SHA-256:25d6a934643074590c3006468ec051f62d02298abbff27d7e3643ee147e818e0",
+                            "size": "71949"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.elf2uf2-2e6142b.220714.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.elf2uf2-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:f2743d086d1992599d656aaa9a38a736d443bdc96619fd5bcabdc7fcb05225c8",
+                            "size": "86600"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.elf2uf2-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:5b0e79bfd9d7e5f4d5e5cb0e6e2b685e10fdf3071139c00bf6274a5ca9b9717e",
+                            "size": "82339"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.elf2uf2-2e6142b.220714.zip",
+                            "checksum": "SHA-256:f09e022cbb1fe73315ccf16a2af6bc687b64d0c44066f801fb9dee8326e941b1",
+                            "size": "80399"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0-c-0196c06",
+                    "name": "pqt-pioasm",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:d4ac4b39841984178babd75f5c09cad87e06bd2fb18cf04e40f561d72e604a5d",
+                            "size": "453440"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.pioasm-2e6142b.220714.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.pioasm-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:568ebdd7b1a47c6dbf45793f9bf019855a1b14182fbeb7ed7e342979c6632eef",
+                            "size": "360675"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:2abac2bef690f7ffadfcf74af4832bfcc0e212606efbed21b385bda0517554ef",
+                            "size": "511442"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.pioasm-2e6142b.220714.zip",
+                            "archiveFileName": "i686-w64-mingw32.pioasm-2e6142b.220714.zip",
+                            "checksum": "SHA-256:0b1336b999a31d164248248d37fa550aa14a06dae8ef5b215818c5f0597ca80b",
+                            "size": "385882"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.pioasm-2e6142b.220714.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.pioasm-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:7057ba222a54ff9bd43a6a4232a6355100f29e0cc20d3facb5d600180f418e68",
+                            "size": "480538"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.pioasm-2e6142b.220714.tar.gz",
+                            "checksum": "SHA-256:30b367e8d2cd4ccdf151e728b4137bad1d993c42f0d640307e27d5fc55fce2c0",
+                            "size": "458691"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.pioasm-2e6142b.220714.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.pioasm-2e6142b.220714.zip",
+                            "checksum": "SHA-256:b7b340862e673f9e57287f02219b2d56094a497fe9d8c451acf28aaef721e038",
+                            "size": "409101"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.4.0-c-0196c06",
+                    "name": "pqt-mklittlefs",
+                    "systems": [
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/aarch64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "archiveFileName": "aarch64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "checksum": "SHA-256:ad0af70d568e10a9a2a74c6e0a3cf8659a47b80fbf594b01731579bc21a5c212",
+                            "size": "47287"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/arm-linux-gnueabihf.mklittlefs-affa497.220714.tar.gz",
+                            "archiveFileName": "arm-linux-gnueabihf.mklittlefs-affa497.220714.tar.gz",
+                            "checksum": "SHA-256:f8f1a1dd7b02220f11cf0f6a6c88692f7e056eb245fbc41017c33d333751980e",
+                            "size": "40826"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "archiveFileName": "i686-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "checksum": "SHA-256:4d10a2bc6a8fa41a7e5642aa30128f797f84b099e1bb2282c6c2d62a06e81e21",
+                            "size": "50925"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/i686-w64-mingw32.mklittlefs-affa497.220714.zip",
+                            "archiveFileName": "i686-w64-mingw32.mklittlefs-affa497.220714.zip",
+                            "checksum": "SHA-256:71117412351ea2486848848d76f4d1e3c7a507a4d7546f6b0646bbc10c96d557",
+                            "size": "334062"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-apple-darwin14.mklittlefs-affa497.220714.tar.gz",
+                            "archiveFileName": "x86_64-apple-darwin14.mklittlefs-affa497.220714.tar.gz",
+                            "checksum": "SHA-256:b3d0c30f942982337cd4c0e4f70855f8eabcf1d378eac78465c7fee39ab5915f",
+                            "size": "365780"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "archiveFileName": "x86_64-linux-gnu.mklittlefs-affa497.220714.tar.gz",
+                            "checksum": "SHA-256:9241e8e642748048bd32c7ccf4a8200e8bc104d6e328fe7437e8727866f29d94",
+                            "size": "49787"
+                        },
+                        {
+                            "host": "x86_64-mingw32",
+                            "url": "https://github.com/earlephilhower/pico-quick-toolchain/releases/download/1.4.0-c/x86_64-w64-mingw32.mklittlefs-affa497.220714.zip",
+                            "archiveFileName": "x86_64-w64-mingw32.mklittlefs-affa497.220714.zip",
+                            "checksum": "SHA-256:2f39dd727e9cb61dbc631d00f543a99b6224fb24ffde0dff0cb2b70c9561ae69",
+                            "size": "347612"
+                        }
+                    ]
+                },
+                {
+                    "systems": [
+                        {
+                            "host": "i386-apple-darwin11",
+                            "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+                            "size": "96372129",
+                            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+                        },
+                        {
+                            "host": "i686-linux-gnu",
+                            "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+                            "size": "92811866",
+                            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+                            "size": "92811866",
+                            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+                            "size": "102981732",
+                            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
+                        }
+                    ],
+                    "name": "gcc-arm-none-eabi",
+                    "version": "5_2-2015q4"
+                },
+                {
+                    "systems": [
+                        {
+                            "host": "i386-apple-darwin11",
+                            "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+                            "size": "362222",
+                            "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
+                        },
+                        {
+                            "host": "i686-linux-gnu",
+                            "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+                            "size": "177428",
+                            "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+                            "size": "190020",
+                            "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "checksum": "MD5:8352392ae0272173e1508d1218f51671",
+                            "size": "851576",
+                            "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+                            "size": "2794097",
+                            "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
+                        },
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+                            "size": "2794097",
+                            "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+                            "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
+                        }
+                    ],
+                    "name": "nrfjprog",
+                    "version": "9.4.0"
+                },
+                {
+                    "systems": [
+                        {
+                            "host": "i686-linux-gnu",
+                            "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+                            "size": "28295",
+                            "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+                            "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+                            "size": "28667",
+                            "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+                            "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz"
+                        },
+                        {
+                            "host": "i386-apple-darwin11",
+                            "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+                            "size": "3742",
+                            "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+                            "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+                            "size": "525710",
+                            "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+                            "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz"
+                        }
+                    ],
+                    "name": "wiced_dfu",
+                    "version": "1.0.0"
+                }
+            ],
+            "name": "Ossila",
+            "maintainer": "OKSM",
+            "platforms": [
+                {
+                    "name": "Ossila SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_boards_1.0.0.zip",
+                    "archiveFileName": "Ossila_boards_1.0.0.zip",
+                    "checksum": "SHA-256:71159363d01e2ff875df9b2c3e988b56ab8b6480ccd2af69a8e0336459dd838d",
+                    "size": "4537843",
+                    "boards": [
+                        {
+                            "name": "Ossila A2002 M4"
+                        },
+                        {
+                            "name": "Ossila A2003 M4"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Ossila",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-arduino3"
+                        },
+                        {
+                            "packager": "Ossila",
+                            "name": "bossac",
+                            "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "Ossila",
+                            "name": "CMSIS",
+                            "version": "5.4.0"
+                        },
+                        {
+                            "packager": "Ossila",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ossila SAM3X Boards M3",
+                    "architecture": "sam",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_SAM3X_Boards_1.0.0.zip",
+                    "archiveFileName": "Ossila_SAM3X_Boards_1.0.0.zip",
+                    "checksum": "SHA-256:1b927ffff2921b6aa680c31316d27f2463414651980ef95ae686307b056ffc46",
+                    "size": "43470206",
+                    "boards": [
+                        {
+                            "name": "Sam3X Full"
+                        },
+                        {
+                            "name": "Sam3X Half"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.6.1-arduino"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ossila 2040 Boards",
+                    "architecture": "rp2040",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_2040_Boards_1.0.0.zip",
+                    "archiveFileName": "Ossila_2040_Boards_1.0.0.zip",
+                    "checksum": "SHA-256:60fb7e9c4c8813b93db0b98a9be37fc0766aed5864181ad42af7411f6bf24889",
+                    "size": "18383166",
+                    "boards": [
+                        {
+                            "name": "Raspberry Pi Pico"
+                        },
+                        {
+                            "name": "Raspberry Pi Pico W"
+                        },
+                        {
+                            "name": "Adafruit Feather RP2040"
+                        },
+                        {
+                            "name": "Solder Party RP2040 Stamp"
+                        },
+                        {
+                            "name": "SparkFun Thing Plus RP2040"
+                        },
+                        {
+                            "name": "WIZnet WizFi360-EVB-Pico"
+                        },
+                        {
+                            "name": "WIZnet W5500-EVB-Pico"
+                        },
+                        {
+                            "name": "Generic RP2040"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "rp2040",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-gcc"
+                        },
+                        {
+                            "packager": "rp2040",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-mklittlefs"
+                        },
+                        {
+                            "packager": "rp2040",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-elf2uf2"
+                        },
+                        {
+                            "packager": "rp2040",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-pioasm"
+                        },
+                        {
+                            "packager": "rp2040",
+                            "version": "1.0.1-base-3a57aed",
+                            "name": "pqt-python3"
+                        },
+                        {
+                            "packager": "rp2040",
+                            "version": "1.4.0-c-0196c06",
+                            "name": "pqt-openocd"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
