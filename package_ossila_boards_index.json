@@ -813,8 +813,8 @@
                     "category": "Contributed",
                     "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_2040_Boards_1.0.0.zip",
                     "archiveFileName": "Ossila_2040_Boards_1.0.0.zip",
-                    "checksum": "SHA-256:60fb7e9c4c8813b93db0b98a9be37fc0766aed5864181ad42af7411f6bf24889",
-                    "size": "18383166",
+                    "checksum": "SHA-256:54067b1f7adc0f7c489d649748a990008e7e4446d8e06358d418484808fc9480",
+                    "size": "18391766",
                     "boards": [
                         {
                             "name": "Raspberry Pi Pico"
@@ -830,6 +830,12 @@
                         },
                         {
                             "name": "SparkFun Thing Plus RP2040"
+                        },
+                        {
+                            "name": "Waveshare RP2040 Plus 4MB"
+                        },
+                        {
+                            "name": "Waveshare RP2040 Plus 16MB"
                         },
                         {
                             "name": "WIZnet WizFi360-EVB-Pico"
