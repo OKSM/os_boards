@@ -843,56 +843,32 @@
                     ],
                     "toolsDependencies": [
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.4.0-c-0196c06",
                             "name": "pqt-gcc"
                         },
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.4.0-c-0196c06",
                             "name": "pqt-mklittlefs"
                         },
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.4.0-c-0196c06",
                             "name": "pqt-elf2uf2"
                         },
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.4.0-c-0196c06",
                             "name": "pqt-pioasm"
                         },
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.0.1-base-3a57aed",
                             "name": "pqt-python3"
                         },
                         {
-<<<<<<< HEAD
                             "packager": "Ossila",
-=======
-                            "packager": "rp2040",
->>>>>>> e3c7a900b9edb2195ebf02109b28e7dd4562089c
                             "version": "1.4.0-c-0196c06",
                             "name": "pqt-openocd"
                         }
