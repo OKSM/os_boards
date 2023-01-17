@@ -795,12 +795,12 @@
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "arduino",
+                            "packager": "Ossila",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "arduino",
+                            "packager": "Ossila",
                             "name": "bossac",
                             "version": "1.6.1-arduino"
                         }
