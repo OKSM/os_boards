@@ -914,7 +914,7 @@
                     "url": "https://github.com/OKSM/os_boards/raw/main/Ossila_SAM3X_Boards_1.0.0.zip",
                     "archiveFileName": "Ossila_SAM3X_Boards_1.0.0.zip",
                     "checksum": "SHA-256:5d63e18faca03714e7874d3317e70ef14acfd3c23e619d8df9e9768424ae74dc",
-                    "size": "43470228",
+                    "size": "43470808",
                     "boards": [
                         {
                             "name": "Sam3X8-Full"
