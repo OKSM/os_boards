@@ -52,6 +52,47 @@
                     ]
                 },
                 {
+          "name": "bossac",
+          "version": "1.6.1-arduino",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+              "archiveFileName": "bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+              "size": "201341",
+              "checksum": "SHA-256:8c4e63db982178919c824e7a35580dffc95c3426afa7285de3eb583982d4d391"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
+              "size": "222918",
+              "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+              "size": "64587",
+              "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+              "size": "30869",
+              "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+              "size": "30320",
+              "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92"
+            }
+          ]
+        },
+                {
                     "name": "CMSIS",
                     "version": "5.4.0",
                     "systems": [
